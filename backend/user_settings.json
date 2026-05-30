@@ -1,0 +1,30 @@
+{
+  "1": {
+    "name": "SARTHPLEX",
+    "description": "Sarthplex is a movie theater. Here we never increase the cost of a ticket for any movie cause we thought in today's generation it's the most efficient way to guide a human in the right way, and it's for all, and this is our vision behind our no cost increase service.",
+    "services": "a screen with fix cost,\na 3d screen with dolby sound system and luxury sofas.",
+    "tagline": "watch with us,grow with us",
+    "tone": "Friendly"
+  },
+  "2": {
+    "name": "holanothing ",
+    "description": "not for you",
+    "services": "time pass",
+    "tagline": "",
+    "tone": "Professional"
+  },
+  "6": {
+    "name": "wala",
+    "description": "we thaught every persone need wala people in their life so we sell wala people ",
+    "services": "people ,o rgans",
+    "tagline": "",
+    "tone": "Professional"
+  },
+  "7": {
+    "name": "xzcvbnm",
+    "description": "sdfghjkl",
+    "services": "cvbnm",
+    "tagline": "",
+    "tone": "Professional"
+  }
+}
