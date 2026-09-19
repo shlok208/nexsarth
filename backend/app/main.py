@@ -5,6 +5,16 @@ from app.routers import leads, conversations, stats, gmail, auth, settings
 
 app = FastAPI(title="Lead Management API")
 
+import os
+
+origins = [
+    "http://localhost:3000",  # local development
+]
+
+frontend_url = os.getenv("FRONTEND_URL")
+if frontend_url:
+    origins += [u.strip().rstrip("/") for u in frontend_url.split(",")]
+    
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
